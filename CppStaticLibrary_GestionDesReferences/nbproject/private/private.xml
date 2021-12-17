@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>3</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Solutions_Labo1">
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Journal.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/tests/OuvrageTesteur.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Reference.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/validationFormat.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Ouvrage.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/ReferenceException.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/tests/BibliographieTesteur.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/ReferenceException.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/tests/ReferenceTesteur.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Ouvrage.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Journal.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Bibliographie.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/ContratException.h</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/validationFormat.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/ContratException.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Reference.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/Bibliographie.cpp</file>
+            <file>file:/home/etudiant/Bureau/workspace/TP4_536855494/CppStaticLibrary_GestionDesReferences/tests/JournalTesteur.cpp</file>
+        </group>
+    </open-files>
+</project-private>
