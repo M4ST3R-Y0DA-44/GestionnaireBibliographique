@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenetrePrincipale</class>
+ <widget class="QMainWindow" name="FenetrePrincipale">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>FenetrePrincipale</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>791</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bienvenue dans la Bibliographie du TP4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txtAfficherBibliographie">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>120</y>
+      <width>741</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Appuyez sur le menu Operation, puis ajouter une Reference pour commencez la liste Bibliographique. </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOperation">
+    <property name="title">
+     <string>Operation</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_une_Reference">
+     <property name="title">
+      <string>Ajouter une Reference</string>
+     </property>
+     <addaction name="menuAjouterJournal"/>
+     <addaction name="menuAjouterOuvrage"/>
+    </widget>
+    <addaction name="menuAjouter_une_Reference"/>
+    <addaction name="menuSupprimerUneReference"/>
+    <addaction name="separator"/>
+    <addaction name="menuQuitter"/>
+   </widget>
+   <addaction name="menuOperation"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="menuSupprimerUneReference">
+   <property name="text">
+    <string>Supprimer une Reference</string>
+   </property>
+  </action>
+  <action name="menuQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="menuAjouterJournal">
+   <property name="text">
+    <string>Journal</string>
+   </property>
+  </action>
+  <action name="menuAjouterOuvrage">
+   <property name="text">
+    <string>Ouvrage</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>menuQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>FenetrePrincipale</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menuAjouterJournal</sender>
+   <signal>triggered()</signal>
+   <receiver>FenetrePrincipale</receiver>
+   <slot>DialogJournal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menuAjouterOuvrage</sender>
+   <signal>triggered()</signal>
+   <receiver>FenetrePrincipale</receiver>
+   <slot>DialogOuvrage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menuSupprimerUneReference</sender>
+   <signal>triggered()</signal>
+   <receiver>FenetrePrincipale</receiver>
+   <slot>DialogDeleteReference()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>DialogJournal()</slot>
+  <slot>DialogOuvrage()</slot>
+  <slot>DialogDeleteReference()</slot>
+ </slots>
+</ui>
